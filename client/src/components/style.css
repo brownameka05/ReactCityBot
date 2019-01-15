@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  background-image: url(https://i.pinimg.com/564x/89/52/e9/8952e97fbcd3d5ddc9388a42ea131f08.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white;
+  background-color: black;
+}
