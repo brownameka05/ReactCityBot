@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const passport = require('passport');
 const config = require('./db');
 
-const users = require('./routes/user');
+const users = require('./backend/routes/user');
 
 mongoose.connect(config.DB, { useNewUrlParser: true }).then(
     () => {console.log('Mongo Database is connected') },
