@@ -3,6 +3,7 @@ import axios from "axios/index";
 import Cookies from 'universal-cookie';
 import { v4 as uuid } from 'uuid';
 
+
 import Message from './Message';
 import Card from './Card';
 
@@ -139,7 +140,7 @@ renderMessages(returnedMessages) {
           <div style={{ height: 500, width: 600, float: 'right'}}>
             <nav>
               <div className="nav-wrapper teal lighten-2">
-                <a className="brand-logo "> CITYBOT</a>
+                <div className='brand-logo'> CITYBOT</div>
               </div>
             </nav>
             <div id="chatbot" style={{ height: 388, width: '100%', overflow: 'auto'}}>

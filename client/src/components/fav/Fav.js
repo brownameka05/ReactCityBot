@@ -1,7 +1,7 @@
 import React from 'react';
 import ItemList from './ItemList';
 
-const Shop = () => {
+const Fav = () => {
   return (
     <div>
       <h2> FAVORITES </h2>
@@ -10,4 +10,4 @@ const Shop = () => {
   )
 };
 
-export default Shop;
+export default Fav;

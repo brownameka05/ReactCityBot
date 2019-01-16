@@ -1,12 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import style from './style.css';
+import './style.css';
 import Header from './Header';
 import Landing from './pages/Landing';
 import About from './pages/About';
+import Register from './pages/Register';
 import Login from './pages/Login';
-import Shop from './shop/Shop';
+import Feedback from './pages/Feedback';
+import Fav from './fav/Fav';
 import Chatbot from './chatbot/Chatbot';
+
 
 
 
@@ -19,8 +22,11 @@ const App = () => {
           <Header/>
           <Route exact path="/" component={Landing} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/shop" component={Shop} />
+          <Route exact path="/fav" component={Fav} />
+          <Route exact path="/register" component={Register} />
           <Route exact path="/login" component={Login} />
+          <Route exact path="/feedback" component={Feedback} />
+
 
           <Chatbot/>
         </div>
